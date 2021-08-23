@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T17:29:26.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" version="14.9.8" etag="L48Ih-M__0rap7hWwHAO" type="github"><diagram id="geTGGd_PgJFT0pyFHNEK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-23T17:51:12.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="jkVKAKqAoXBw19iZ7ik8" version="14.9.8" type="github">
+  <diagram id="geTGGd_PgJFT0pyFHNEK" name="Page-1">
+    <mxGraphModel dx="526" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-1" value="Revistas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="130" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-2" value="- nome: String&#xa;- código: int&#xa;- periodo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-1">
+          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-5" value="Edições" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-6" value="- numero: int&#xa;- data: Date&#xa;- preço: Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-5">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-5">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-5">
+          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-9" value="Artigos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-10" value="- titulo: String&#xa;- assunto: String&#xa;- autor: String&#xa;- data: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-9">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-9">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-9">
+          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-13" value="Editora" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-14" value="- nome: String&#xa;- cnpj: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-13">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-13">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FTHd8F5nLd2ZKFnu8ib3-13">
+          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-17" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1" source="FTHd8F5nLd2ZKFnu8ib3-14" target="FTHd8F5nLd2ZKFnu8ib3-2">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="365" y="192" as="sourcePoint" />
+            <mxPoint x="505" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-18" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.406;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FTHd8F5nLd2ZKFnu8ib3-4" target="FTHd8F5nLd2ZKFnu8ib3-5">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="570" y="260" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-19" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FTHd8F5nLd2ZKFnu8ib3-10">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="490" y="413" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-20" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FTHd8F5nLd2ZKFnu8ib3-21" value="&lt;div class=&quot;page&quot; title=&quot;Page 1&quot;&gt;&lt;div class=&quot;section&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 14pt ; font-family: &amp;#34;opensans&amp;#34; ; font-weight: 700 ; color: rgb(247 , 57 , 57)&quot;&gt;Modelando Relacionamentos com UML&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 16pt ; font-family: &amp;#34;opensans&amp;#34; ; font-weight: 700&quot;&gt;Objetivo&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;opensans&amp;#34;&quot;&gt;Identifique e modele as classes envolvidas no enunciado especificando seus atributos, responsabilidades e principalmente as relações entre elas. Especifique a multiplicidade desses relacionamentos.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;opensans&amp;#34; ; font-size: 11pt&quot;&gt;Um editor produz uma série de revistas de jornal. Cada revista possui um nome, um código e uma periodicidade (semanal ou mensal). As revistas têm várias edições, a cada edição temos um número de edição, uma data de edição e um preço. Uma série de artigos aparece em cada edição, cada um com seu título, assunto, autor e data do artigo.&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="130" width="280" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
