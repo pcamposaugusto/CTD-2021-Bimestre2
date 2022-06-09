@@ -9,5 +9,3 @@ Repositório contendo os exercícios e os projetos das disciplinas do **2º Bime
 
 - Front-end II (JS)
 - Programação Orientada a Objetos (Java)
-- Testing I
-- Design Thinking
